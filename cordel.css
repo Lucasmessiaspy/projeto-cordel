@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: relative;
+    max-height: 1050;
+    min-height: 568;
+    height: 200px;
+    background-color: black;
+
+}
+
+header>h1{
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+    color: white;
+    text-align: center;
+    font:
+}
+header>nav{
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%,-75%);
+
+    text-align: center;
+    color: white;
+    font: ;
+
+}
+nav a{
+    color: white;
+    font: ;
+}
+nav:hover{
+    
+}
+.todos{
+    position: relative;
+    max-height: ;
+    min-height: ;
+    height: 500px;
+    background-color: white
+}
+
+article{
+    position: absolute;
+    width: 400px;
+    height: 420px;
+    left: 20px;
+    top: 50px;
+}
+.cordelmodelo1{
+    font-size: 30px;
+    line-height: 50px;
+
+}
+#caixa1{
+
+    position: relative;
+    width: 100% ;
+    background-image: url('imagens/background001.jpg');
+    background-repeat:no-repeat ;
+    background-position: center center;
+    background-size: cover 
+    
+}
+#contaner2{
+    background-color: black;
+    color: white;
+    padding: 7px;
+}
