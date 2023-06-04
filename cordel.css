@@ -50,14 +50,15 @@ nav:hover{
 
 article{
     position: absolute;
-    width: 400px;
+    width: 380px;
     height: 420px;
-    left: 20px;
-    top: 50px;
+    left: 30px;
+    top: 40px;
 }
 .cordelmodelo1{
     font-size: 30px;
     line-height: 50px;
+    padding-left: 8px;
 
 }
 #caixa1{
@@ -74,4 +75,40 @@ article{
     background-color: black;
     color: white;
     padding: 7px;
+}
+.boxmaior{
+    position: relative;
+    max-height: ;
+    min-height: ;
+    height: 400px;
+    background-color: white
+}
+#caixa2{
+    position: relative;
+    background-image: url('imagens/background002.jpg');
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#contaner3{
+    background-color: rgba(0, 0, 0, 0.438);
+    color: white;
+}
+footer{
+    position: relative;
+    height: 80px;
+    background-color: black;
+}
+nav{
+    position: absolute;
+    left:50% ;
+    top: 35px;
+    transform: translate(-50%);
+}
+nav>p{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+
 }
