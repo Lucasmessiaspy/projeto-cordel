@@ -33,12 +33,17 @@ header>nav{
     font: ;
 
 }
-nav a{
+ header nav a{
     color: white;
     font: ;
+    text-decoration: none;
 }
-nav:hover{
-    
+ header a:hover{
+    text-decoration: underline;
+    color: rgb(91, 155, 91);
+}
+ header a:active{
+    color: lightcyan;
 }
 .todos{
     position: relative;
@@ -106,7 +111,16 @@ nav{
     top: 35px;
     transform: translate(-50%);
 }
-nav>p{
+nav a{
+    ont-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: cornflowerblue;
+}
+nav p {
     font-size: 18px;
     color: white;
     text-align: center;
