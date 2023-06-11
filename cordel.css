@@ -1,6 +1,20 @@
+
+@charset 'UTF-8';
+  @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+:root{
+    --fonte1:verdana, Geneva, tahoma, sans-serif;
+    --font2:'Passion One', cursive;
+    --font3: 'Sriracha', cursive;
+}
+
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    min-height: 100vh;
+    font-family: var(--fonte1);
 }
 header{
     position: relative;
@@ -20,7 +34,10 @@ header>h1{
 
     color: white;
     text-align: center;
-    font:
+    font-variant: small-caps;
+    font-family: var(--font2);
+    padding-bottom: 4vh;
+    font-size: 8vw;
 }
 header>nav{
     position: absolute;
@@ -44,6 +61,10 @@ header>nav{
 }
  header a:active{
     color: lightcyan;
+}
+section p{
+    font-family: var(--font3);
+    font-size: 7vw;
 }
 .todos{
     position: relative;
@@ -73,7 +94,9 @@ article{
     background-image: url('imagens/background001.jpg');
     background-repeat:no-repeat ;
     background-position: center center;
-    background-size: cover 
+    background-attachment: fixed;
+    background-size: cover ;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.185);
     
 }
 #contaner2{
@@ -89,12 +112,14 @@ article{
     background-color: white
 }
 #caixa2{
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.185);
     position: relative;
     background-image: url('imagens/background002.jpg');
     width: 100%;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 #contaner3{
     background-color: rgba(0, 0, 0, 0.438);
@@ -102,26 +127,26 @@ article{
 }
 footer{
     position: relative;
-    height: 80px;
+    height: 10vh;
     background-color: black;
+    font-size: 2vw;    
 }
 nav{
     position: absolute;
     left:50% ;
-    top: 35px;
+    top: 20px;
     transform: translate(-50%);
 }
-nav a{
-    ont-size: 18px;
+ footer nav a{
     color: white;
     text-decoration: none;
+    font-size: 1.8vw;
 }
 nav a:hover{
     text-decoration: underline;
     color: cornflowerblue;
 }
 nav p {
-    font-size: 18px;
     color: white;
     text-align: center;
 
